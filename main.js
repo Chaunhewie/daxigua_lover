@@ -30,6 +30,7 @@ window.boot = function() {
                 realEntries[uuids[id] || id] = entry;
             }
         }
+        console.log("realRawAssets:", realRawAssets)
 
         var scenes = settings.scenes;
         for (var i = 0; i < scenes.length; ++i) {
